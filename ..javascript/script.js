@@ -54,7 +54,7 @@
             img.src = 'img/manha.png' //Vai mostrar essa imagem
             document.body.style.background = "#EDD4A9" //A cor de fundo vai ser essa
         } else if (hora >= 12 && hora <= 18) { //Se a hora for maior ou igual a 12 ou menor que 18...
-            msg.innerHTML = `Hoje é dia ${dia} de ${m} de ${ano}.<br>Agora são ${hora} h ${min} min e ${seg} seg<br>no horário de Brasilia.<br><form style="border: 1px solid black;"><strong style="color: blue; font-size: 1.5em;">${hora}:${min}:${seg}</strong></form>` //Vai aparecer está mensagem ao invés da mensagem com id "msg" que está no HTML
+            msg.innerHTML = `Hoje é dia ${dia} de ${m} de ${ano}.<br>Agora são ${hora} h ${min} min e ${seg} seg<br>no horário de Brasilia.<br><form style="border: 1px solid black; border-radius: 5px; margin: auto; width: 30%; box-shadow: 2px 5px 9px black;" ><strong style="color: blue; font-size: 1.5em;">${hora}:${min}:${seg}</strong></form>` //Vai aparecer está mensagem ao invés da mensagem com id "msg" que está no HTML
               img.src = 'img/tarde.png'//Vai mostrar essa imagem
               document.body.style.background = "#b9846f" //A cor de fundo vai ser essa
         } else { //Se nenhuma das opções acima for verdadeira...
